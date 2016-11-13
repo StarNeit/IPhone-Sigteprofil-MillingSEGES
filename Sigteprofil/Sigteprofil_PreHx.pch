@@ -1,0 +1,23 @@
+//
+//  Sigteprofil_PreHx.pch
+//  Sigteprofil
+//
+//  Created by coneits on 10/8/16.
+//  Copyright © 2016 masterteam. All rights reserved.
+//
+
+#ifndef Sigteprofil_PreHx_pch
+#define Sigteprofil_PreHx_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#include "Common.h"
+
+#import "Define.h"
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "ObjectiveRecord.h"
+#import "Global.h"
+
+#endif /* Sigteprofil_PreHx_pch */

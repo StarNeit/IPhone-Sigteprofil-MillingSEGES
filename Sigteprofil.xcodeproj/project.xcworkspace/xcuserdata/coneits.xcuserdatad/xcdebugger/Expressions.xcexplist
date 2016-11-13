@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[SigtemalingVC addtoolbar:]:SigtemalingVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "active_field">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__42-[SigtemalingVC textFieldDidBeginEditing:]_block_invoke:SigtemalingVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "active_field">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SigtemalingVC textFieldDidBeginEditing:]:SigtemalingVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "active_field">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

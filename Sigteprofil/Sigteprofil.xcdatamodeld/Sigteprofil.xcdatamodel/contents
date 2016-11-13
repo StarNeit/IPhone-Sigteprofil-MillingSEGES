@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15C50" minimumToolsVersion="Automatic">
+    <entity name="Grains" syncable="YES">
+        <attribute name="grain_middle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grain_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grain_over" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="grain_under" optional="YES" attributeType="String" syncable="YES"/>
+        <fetchedProperty name="fetchedProperty" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Grains"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="Sigt" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="middle_percent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="navn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="over_percent" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="under_percent" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Grains" positionX="-36" positionY="9" width="128" height="134"/>
+        <element name="Sigt" positionX="-36" positionY="54" width="128" height="135"/>
+    </elements>
+</model>

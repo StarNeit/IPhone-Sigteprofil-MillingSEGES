@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GuideVC">
+            <connections>
+                <outlet property="btn_back" destination="YKi-NR-tg7" id="RK2-S1-wKF"/>
+                <outlet property="btn_left" destination="Rwl-R1-cWG" id="etJ-uZ-c9I"/>
+                <outlet property="btn_right" destination="i4D-4g-le7" id="OBC-Dr-wfv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="76s-iH-edB"/>
+                <outlet property="view_app_guide" destination="Wk2-g6-tcc" id="Vjk-gP-VeV"/>
+                <outlet property="view_main_guide" destination="VWT-wB-bKO" id="zTE-AU-f4U"/>
+                <outlet property="view_percent_guide" destination="yLb-5h-Wwj" id="Tlm-ek-d3g"/>
+                <outlet property="view_sigte_guide" destination="hgz-Ow-0Lp" id="m0k-1J-XqM"/>
+                <outletCollection property="img_app_guides" destination="U2Y-cq-nrN" id="dg2-px-Ywr"/>
+                <outletCollection property="img_app_guides" destination="CeG-Ip-qej" id="X6P-Nm-lOq"/>
+                <outletCollection property="img_app_guides" destination="QZm-6T-j8Z" id="AGj-3n-w9W"/>
+                <outletCollection property="img_app_guides" destination="pLt-KC-dB4" id="MOi-qk-bee"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner.png" id="Y5d-8c-iAF">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="84"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="8td-4K-cpz">
+                    <rect key="frame" x="0.0" y="617" width="414" height="119"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fcP-5G-4QU">
+                            <rect key="frame" x="0.0" y="0.0" width="138" height="119"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <state key="normal" image="btn_calculate.png"/>
+                            <connections>
+                                <action selector="onClickCalculate:" destination="-1" eventType="touchUpInside" id="jdi-T5-vIH"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uQg-Ih-mGf">
+                            <rect key="frame" x="138" y="0.0" width="138" height="119"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <state key="normal" image="btn_history.png"/>
+                            <connections>
+                                <action selector="onClickHistory:" destination="-1" eventType="touchUpInside" id="gvV-mv-PgN"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sDV-Qa-70z">
+                            <rect key="frame" x="276" y="0.0" width="138" height="119"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <state key="normal" image="btn_guide_on.png"/>
+                            <connections>
+                                <action selector="onClickGuide:" destination="-1" eventType="touchUpInside" id="W8N-CB-YJa"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </view>
+                <view contentMode="scaleToFill" id="VWT-wB-bKO">
+                    <rect key="frame" x="0.0" y="81" width="414" height="538"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="label_guide.png" id="u9a-vG-iZy">
+                            <rect key="frame" x="153" y="31" width="109" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OJg-H7-4fy">
+                            <rect key="frame" x="0.0" y="124" width="414" height="90"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="btn_sigte_guide.png"/>
+                            <connections>
+                                <action selector="onClickSigteGuide:" destination="-1" eventType="touchUpInside" id="fks-Yd-cWL"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y5B-QH-z8G">
+                            <rect key="frame" x="0.0" y="234" width="414" height="90"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="btn_percent_guide.png"/>
+                            <connections>
+                                <action selector="onClickPercentGuide:" destination="-1" eventType="touchUpInside" id="zUh-oh-PfP"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uv4-eQ-yg5">
+                            <rect key="frame" x="0.0" y="344" width="414" height="90"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="btn_app_guide.png"/>
+                            <connections>
+                                <action selector="onClickAppGuide:" destination="-1" eventType="touchUpInside" id="dT5-lW-PYa"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.90196078431372551" green="0.96078431372549022" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="hgz-Ow-0Lp">
+                    <rect key="frame" x="0.0" y="81" width="414" height="538"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_sigte_guide.png" id="BQK-oW-p6G">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="538"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="b62-BE-rbM">
+                            <rect key="frame" x="24" y="71" width="367" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="onClickYoutubeLink:" destination="-1" eventType="touchUpInside" id="qvg-AS-ANp"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.90196078430000004" green="0.96078431369999995" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="yLb-5h-Wwj">
+                    <rect key="frame" x="0.0" y="81" width="414" height="538"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_percent_guide.png" id="Me3-IN-BUG">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="538"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.90196078430000004" green="0.96078431369999995" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YKi-NR-tg7">
+                    <rect key="frame" x="19" y="22" width="69" height="41"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="btn_back.png"/>
+                    <connections>
+                        <action selector="onClickBackToMain:" destination="-1" eventType="touchUpInside" id="jrO-c0-NAE"/>
+                    </connections>
+                </button>
+                <view hidden="YES" contentMode="scaleToFill" id="Wk2-g6-tcc">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_app_guide4.png" id="pLt-KC-dB4">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_app_guide3.png" id="QZm-6T-j8Z">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_app_guide2.png" id="CeG-Ip-qej">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_app_guide1.png" id="U2Y-cq-nrN">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="i4D-4g-le7">
+                            <rect key="frame" x="356" y="270" width="46" height="96"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="btn_right.png"/>
+                            <connections>
+                                <action selector="onClickBtnRight:" destination="-1" eventType="touchUpInside" id="yzV-qA-ZPO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Rwl-R1-cWG">
+                            <rect key="frame" x="9" y="270" width="46" height="96"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="btn_left.png"/>
+                            <connections>
+                                <action selector="onClickBtnLeft:" destination="-1" eventType="touchUpInside" id="kzD-BX-dAb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="seb-28-0KH">
+                            <rect key="frame" x="138" y="664" width="138" height="46"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="btn_finish.png"/>
+                            <connections>
+                                <action selector="onClickBackToMain:" destination="-1" eventType="touchUpInside" id="DQi-Tp-DWI"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.90196078430000004" green="0.96078431369999995" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="530" y="98"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="banner.png" width="640" height="130"/>
+        <image name="btn_app_guide.png" width="640" height="139"/>
+        <image name="btn_back.png" width="96" height="56"/>
+        <image name="btn_calculate.png" width="216" height="185"/>
+        <image name="btn_finish.png" width="226" height="75"/>
+        <image name="btn_guide_on.png" width="210" height="185"/>
+        <image name="btn_history.png" width="214" height="189"/>
+        <image name="btn_left.png" width="74" height="153"/>
+        <image name="btn_percent_guide.png" width="640" height="139"/>
+        <image name="btn_right.png" width="74" height="153"/>
+        <image name="btn_sigte_guide.png" width="640" height="139"/>
+        <image name="img_app_guide1.png" width="626" height="1088"/>
+        <image name="img_app_guide2.png" width="628" height="1088"/>
+        <image name="img_app_guide3.png" width="625" height="1088"/>
+        <image name="img_app_guide4.png" width="628" height="1088"/>
+        <image name="img_percent_guide.png" width="640" height="821"/>
+        <image name="img_sigte_guide.png" width="643" height="821"/>
+        <image name="label_guide.png" width="177" height="49"/>
+    </resources>
+</document>
